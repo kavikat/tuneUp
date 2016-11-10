@@ -19,3 +19,6 @@ if(document.getElementsByClassName("line1 _navigateNowPlaying")[0].innerHTML != 
     var url = "https://soundcloud.com/search/sounds?q=" + query;
     window.open(url, '_blank');
 }
+
+//TODO add query xpath for site url if song metadata isnt present
+//*[@id="content"]/div[3]/div/div[2]/div[2]/div[2]/ul/li[5]/a[1]

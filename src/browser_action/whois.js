@@ -20,5 +20,7 @@ if(document.getElementsByClassName("line1 _navigateNowPlaying")[0].innerHTML != 
     window.open(url, '_blank');
 }
 
-//TODO add query xpath for site url if song metadata isnt present
-//*[@id="content"]/div[3]/div/div[2]/div[2]/div[2]/ul/li[5]/a[1]
+/*TODO add query xpath for site url if song metadata isnt present
+XPATH for now playing //*[@id="content"]/div[3]/div/div[2]/div[2]/div[2]/ul/li[5]/a[1]
+XPATH for ADP    "//*[@id="main"]/div[1]/p/a"
+*/
